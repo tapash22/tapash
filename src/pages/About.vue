@@ -79,7 +79,7 @@
   height: 100%;
   padding: 10px;
   margin: 0;
-  background: rgba(223, 221, 221, 0.822);
+  background: #006666fb;
 }
 .about .row {
   width: 100%;
@@ -104,10 +104,10 @@
   margin: 5px;
 }
 .title p {
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   font-weight: 600;
   text-align: center;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Playfair Display', serif;
   padding: 5px;
   margin: 5px;
 }

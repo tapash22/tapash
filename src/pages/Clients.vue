@@ -61,7 +61,7 @@
   height: 100%;
   padding: 10px;
   margin: 0;
-  background: rgba(253, 253, 253, 0.966);
+  background: #9dbcbc;
   
 }
 .about .row {
@@ -90,7 +90,7 @@
   font-size: 1.3rem;
   font-weight: 600;
   text-align: justify;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Playfair Display', serif;
   padding: 5px;
   margin: 5px;
 }

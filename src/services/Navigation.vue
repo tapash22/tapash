@@ -12,6 +12,8 @@
 </template>
 
 <style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Gideon+Roman&family=Lato:wght@100&family=Lobster&family=Luxurious+Roman&family=Merienda:wght@700&family=Montserrat&family=Oswald:wght@400;500&family=Playfair+Display&family=Poppins:wght@100;500&family=Raleway:ital,wght@1,800&family=Roboto+Condensed:wght@300&family=Roboto:wght@100;500&family=Romanesco&family=Ubuntu:wght@700&family=Vollkorn:wght@500&display=swap');
+
 .navigation{
     width: 100%;
     height: 60px;
@@ -19,6 +21,7 @@
     margin: 0;
     position: fixed;
     z-index:90;
+    /* background: rgba(0, 0, 0, 0.301); */
 }
 .navigation nav{
     width: 100%;
@@ -27,7 +30,7 @@
     margin: 0;
     display: flex;
     justify-content: right;
-            background:rgba(148, 147, 147, 0.671);
+            /* background:#006666; */
 }
 nav ul{
     width: 50%;
@@ -36,8 +39,9 @@ nav ul{
     margin: 0;
     display: flex;
     justify-content: center;
-    border-bottom: 10px solid rgb(223, 221, 221);
-        background:rgb(223, 221, 221);
+    /* border-bottom: 10px solid #006666; */
+        background:#006666fb;
+        border-bottom-left-radius: 200px;
 }
 nav ul li{
     display: flex;
@@ -47,16 +51,16 @@ nav ul li{
     list-style: none;
 }
 nav ul li a{
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     font-weight: 600;
-      font-family: "Ubuntu", sans-serif;
+     font-family: 'Playfair Display', serif;
     text-decoration: none;
     padding: 5px;
     margin: 0;
     color: #000;
 }
 nav ul li:last-child a{
-    color: #000;
+    color: #fff;
 }
 
 </style>

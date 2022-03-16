@@ -4,10 +4,8 @@
     <div class="row2">
       <div class="col-md-12">
         <div class="image">
-          <img src="./assets/bio_t.png" />
+          <img src="./assets/pro2.jpg" />
         </div>
-        <!-- <h4>Tapash paul</h4>
-        <p>Full-stack developer</p> -->
       </div>
     </div>
     <About  id="about"/>
@@ -49,17 +47,16 @@ export default {
   justify-content: center;
   padding: 0;
   margin: 0;
-  background: #fff;
 }
 .row2 .col-md-12{
   width: 100%;
   height:100%;
   padding:0;
-  margin-top:60px;
+  margin:0;
 }
 .row2 .col-md-12 .image{
   width: 100%;
-  height: 500px;
+  height: 700px;
   padding: 0;
   margin: 0;
 }
@@ -68,6 +65,8 @@ export default {
   height:100%;
   padding:0;
   margin:0;
+  object-fit: cover;
+  background-position: center;
 }
   
 </style>
