@@ -1,26 +1,74 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class="tapash">
+    <Navigation />
+    <div class="row2">
+      <div class="col-md-12">
+        <div class="image">
+          <img src="./assets/bio_t.png" />
+        </div>
+        <!-- <h4>Tapash paul</h4>
+        <p>Full-stack developer</p> -->
+      </div>
+    </div>
+    <About  id="about"/>
+    <Services id="services"/>
+    <Clients id="client"/>
+    <Contact id="contact"/>
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import Navigation from "./services/Navigation.vue";
+import About from "./pages/About.vue";
+import Services from "./pages/Services.vue";
+import Clients from "./pages/Clients.vue";
+import Contact from "./pages/Contact.vue";
 export default {
-  name: 'App',
   components: {
-    HelloWorld
-  }
-}
+    Navigation,
+    About,
+    Services,
+    Clients,
+    Contact,
+  },
+};
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+<style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Gideon+Roman&family=Lato:wght@100&family=Lobster&family=Luxurious+Roman&family=Merienda:wght@700&family=Montserrat&family=Oswald:wght@400;500&family=Poppins:wght@100;500&family=Roboto+Condensed:wght@300&family=Roboto:wght@100;500&family=Romanesco&family=Ubuntu:wght@700&family=Vollkorn:wght@500&display=swap');
+.tapash {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
 }
+.tapash .row2 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  background: #fff;
+}
+.row2 .col-md-12{
+  width: 100%;
+  height:100%;
+  padding:0;
+  margin-top:60px;
+}
+.row2 .col-md-12 .image{
+  width: 100%;
+  height: 500px;
+  padding: 0;
+  margin: 0;
+}
+.row2 .col-md-12 .image img{
+  width: 100%;
+  height:100%;
+  padding:0;
+  margin:0;
+}
+  
 </style>
+
